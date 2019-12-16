@@ -2,7 +2,7 @@ local BasePlugin = require "kong.plugins.base_plugin"
 local clientRequest = require "kong.request"
 local serverRequest = require "kong.service.request"
 
-local StringUtils = require "string_util"
+local StringUtils = require "kong.plugins.http-to-jsonrpc.string_util"
 
 local kong = kong
 
